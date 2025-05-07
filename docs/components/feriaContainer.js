@@ -3,9 +3,6 @@ let ferias = JSON.parse(localStorage.getItem('ferias')) || []
 function guardarEnStorage() {
     localStorage.setItem('ferias', JSON.stringify(ferias))
 }
-console.log(ferias); 
-
-// Mostrara los exploradores almacenados    
 
 // Registrar feria
 document.getElementById('feriaForm').addEventListener('submit', e => {
@@ -75,7 +72,7 @@ function mostrarFerias() {
             <li>
             <strong>${emp.nombre}</strong> (${emp.categoria})<br>
             ${emp.descripcion}<br>
-            <a href="${emp.redSocial}" target="_blank"></a><br>
+            <a href="${emp.redSocial}" target="_blank">Red Social LINK</a><br>
             Producto: ${emp.producto.nombre} - $${emp.producto.precio}<br>
             ${emp.producto.descripcion}<br>
             <img src="${emp.producto.foto}" width="100">

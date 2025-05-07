@@ -80,21 +80,12 @@
 }
 
 #listaFerias {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin: 20px;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#listaFerias {
     background-color: #fff;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    width: 250px;
+    width: 800px;
+    margin: 10px auto;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
@@ -105,31 +96,37 @@
     margin-bottom: 15px;
     font-size: 1.4em;
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: #007BFF;
     text-transform: uppercase;
 }
 
 #listaFerias  p {
     margin: 5px 0;
     font-size: 1em;
-    color: #555;
-}
-
-#redSocial {
-    font-weight: bold;
     color: #007BFF;
 }
 
-#listaFerias.exploradores {
-    font-style: italic;
-    color: #ff6347;
-}
-
-#listaFeriasimg {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+#listaFerias ul {
+    display: flex;
+    color: black;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
     margin-top: 15px;
+}
+#listaFerias  strong {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #007BFF;
+}
+#listaFerias ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
 

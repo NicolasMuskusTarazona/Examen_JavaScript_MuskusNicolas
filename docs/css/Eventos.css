@@ -1,0 +1,61 @@
+#listaFerias {
+    gap: 100px;
+    margin: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 10px auto;
+    margin-bottom: 240px;
+    border-radius: 10px;
+}
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #Container {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    #listaFerias {
+        width: 180px;
+        padding: 12px;
+    }
+
+    #listaFerias h2 {
+        font-size: 1.1em;
+    }
+
+    #listaFerias  p {
+        font-size: 0.85em;
+    }
+
+    #listaFerias img {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    #Container {
+        gap: 10px;
+        padding: 5px;
+    }
+
+    #listaFerias{
+        width: 160px;
+        padding: 10px;
+    }
+
+    #listaFerias h2 {
+        font-size: 1em;
+    }
+
+    #listaFerias p {
+        font-size: 0.8em;
+    }
+
+    #listaFerias img {
+        margin-top: 5px;
+    }
+}
