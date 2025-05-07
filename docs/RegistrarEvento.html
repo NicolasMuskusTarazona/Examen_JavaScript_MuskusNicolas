@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/RegistrarEvento.css">
+    <script defer type="module" src="js/feriasData.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Eventos.html">Eventos</a></li>
+                <li><a href="RegistrarEvento.html">Registrar Evento</a></li>
+            </ul>
+        </nav>
+        <h1>BucaraEmprende</h1> <!-- Titulo -->
+    </header>
+    <h2>Registrar Feria</h2>
+    <form id="feriaForm">
+        <input type="text" id="lugar" placeholder="Lugar">
+        <input type="date" id="fechaInicio">
+        <input type="date" id="fechaFin">
+        <input type="text" id="horario" placeholder="Horario">
+        <button type="submit">Agregar Feria</button>
+    </form>
+
+    <h1>Registrar Emprendimiento</h1>
+    <form id="emprendimientoForm">
+        <select id="feriaSelect"></select>
+        <input type="text" id="nombreEmp" placeholder="Nombre del emprendimiento">
+        <input type="text" id="categoria" placeholder="Categoría">
+        <textarea id="descripcionEmp" placeholder="Descripción"></textarea>
+        <input type="url" id="redSocial" placeholder="Red Social">
+        <input type="text" id="nombreProd" placeholder="Nombre del producto">
+        <input type="number" id="precioProd" placeholder="Precio">
+        <textarea id="descripcionProd" placeholder="Descripción del producto"></textarea>
+        <input type="text" id="fotoProd" placeholder="URL de la foto">
+        <button type="submit">Agregar Emprendimiento</button>
+    </form>
+
+    <h2>Ferias Registradas</h2>
+    <div id="listaFerias"></div>
+    
+    <footer>
+        <p>BuacarEmprende</p>
+        <p>EnlacesRapidos</p>
+        <p>Contacto: Bucaramanga, Santander,Colombia</p>
+    </footer>
+</body>
+</html>

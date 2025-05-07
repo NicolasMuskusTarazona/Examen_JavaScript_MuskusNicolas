@@ -1,4 +1,4 @@
-
+import '../components/feriaContainer.js '
 export const ferias = [
     {
         id: "feria-001",              // ID único
@@ -52,7 +52,7 @@ export const ferias = [
                     nombre: "Milan",
                     precio: 450000,
                     descripcion: "En un buen estado",
-                    foto: "https://via.placeholder.com/150"
+                    foto: "https:/"
                 }
             },
             {

@@ -170,33 +170,14 @@ img:hover {
 }
 
 /* RESPONSIVE DESIGN */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    input, button {
-        width: 90%;
-    }
-
-    #Container,
-    #ContainerAdmin,
-    #resultadoBusqueda {
-        width: 95%;
-        padding: 25px;
-    }
-
-    main h2 {
-        font-size: 1.5rem;
-    }
-}
 
 @media (max-width: 480px) {
     body {
         font-size: 0.95rem;
     }
-
+    header{
+        height: 150px;
+    }
     #Container,
     #ContainerAdmin,
     #resultadoBusqueda {
